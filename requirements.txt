@@ -1,0 +1,13 @@
+langchain>=0.1.0
+langchain-community>=0.0.30
+langchain-ollama
+bs4
+requests
+faiss-cpu
+unstructured
+ollama
+streamlit
+watchdog
+langchain-google-genai
+langchain-google-genai
+dotenv

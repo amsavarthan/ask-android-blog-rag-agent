@@ -1,0 +1,11 @@
+services:
+  ask-android-blog:
+    build: .
+    container_name: ask_android_blog
+    ports:
+      - "${DOCKER_HOST_PORT}:8501"
+    env_file:
+      - .env
+    environment:
+      - OLLAMA_HOST=http://host.docker.internal:11434
+    restart: unless-stopped
